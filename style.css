@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Varela');
+
+
+body {
+  background-color: #eff9f6;
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: 'Varela', sans-serif;
+  font-size: 20px;
+  line-height: 26px
+}
+h2, h3 {
+  font-size: 16px;
+  font-family: 'Lora', serif;
+}
+
+
+
+p {
+  margin: 15px 0px;
+}
+
+.img-round {
+  border-radius: 50%;
+  width:220px;
+  height:220px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  display: block;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 2px 3px 3px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin: 20px auto;
+  width: 550px;
+  border-radius: 4px;
+  height: auto;
+  text-align: center;
+}
+
+.icons {
+  color: #528dd2;
+  display: inline-block;
+/*  text-align: center;*/
+/*  margin: auto;*/
+}
+
+.list-items {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  font-size: 32px;
+  margin: 3px;
+}
+
+.btn {
+  background-color: #528dd2;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #393b9e;
+  color: white;
+  text-decoration: none;
+}
+.icons:hover {
+  color: #393b9e;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 550px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 150px;
+  }
+}
+
