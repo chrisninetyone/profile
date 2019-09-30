@@ -67,19 +67,20 @@ p {
   margin: 3px;
 }
 
-.btn {
-  background-color: #528dd2;
-  color: white;
-  padding: 5px 15px;
-  border-radius: 10px;
-  text-decoration: none;
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
 
-.btn:hover{
-  background-color: #393b9e;
-  color: white;
-  text-decoration: none;
+.btn-ghost:hover {
+  opacity: 1;
 }
+
 .icons:hover {
   color: #393b9e;
   text-decoration: none;
