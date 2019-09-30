@@ -50,6 +50,9 @@ p {
   height: auto;
   text-align: center;
 }
+.top-card {
+  margin-top: 50px;
+}
 
 .icons {
   color: #528dd2;
